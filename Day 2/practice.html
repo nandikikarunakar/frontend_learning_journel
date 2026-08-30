@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Feedback Form</title>
+  </head>
+  <body>
+    <h2>Feedback Form</h2>
+    <form>
+      <label for="name">Your Name:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="email">Your Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="rating">Rate Us:</label><br />
+      <select id="rating" name="rating" required>
+        <option value="">--Select--</option>
+        <option value="5">Excellent</option>
+        <option value="4">Good</option>
+        <option value="3">Average</option>
+        <option value="2">Poor</option>
+        <option value="1">Very Poor</option></select
+      ><br /><br />
+
+      <label for="comments">Comments:</label><br />
+      <textarea id="comments" name="comments" rows="4" required></textarea
+      ><br /><br />
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </body>
+</html>
